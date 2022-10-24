@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
     .details-wrapper {
         text-align: center;
     }
+
 }
 
 .todo-wrapper {
@@ -109,6 +111,7 @@ button {
 #new-task {
     width: 318px;
 }
+
 
 /* Task list */
 .todo-item {
