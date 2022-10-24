@@ -14,44 +14,44 @@
     </div>
     <div class="todo-wrapper">
         <p id="add-section">
-            <label for="new-task">Add Item</label>
+            <label for="new-task" class="new-task">Add Item</label>
         <div class="add-task-wrapper">
-            <input id="new-task" class="task" type="text">
-            <button>Add</button>
+            <input id="new-task" class="task input" type="text">
+            <button class="button">Add</button>
         </div>
         </p>
-        <h3>Todo</h3>
-        <ul id="incomplete-tasks">
-            <li>
-                <input type="checkbox">
-                <label class="task">
+        <h3 class="header-text">Todo</h3>
+        <ul class='tasks-wrapper incomplete' id="incomplete-tasks">
+            <li class="todo-item">
+                <input class="checkbox" type="checkbox">
+                <label class="task label-task">
                     Pay Bills
                 </label>
-                <input type="text" class="task">
-                <button class="edit">Edit</button>
-                <button class="delete">
-                    <img src="./remove.svg">
+                <input type="text" class="task input">
+                <button class="edit button">Edit</button>
+                <button class="delete button">
+                    <img class="remove" src="./remove.svg">
                 </button>
             </li>
-            <li class="edit-mode">
-                <input type="checkbox">
-                <label class="task">Go Shopping</label>
-                <input type="text" value="Go Shopping" class="task">
-                <button class="edit">Save</button>
-                <button class="delete">
-                    <img src="./remove.svg">
+            <li class="edit-mode todo-item">
+                <input class="checkbox" type="checkbox">
+                <label class="task label-task">Go Shopping</label>
+                <input type="text" value="Go Shopping" class="task input">
+                <button class="edit button">Save</button>
+                <button class="delete button">
+                    <img class="remove" src="./remove.svg">
                 </button>
             </li>
         </ul>
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
-            <li>
-                <input type="checkbox" checked>
-                <label class="task">See the Doctor</label>
-                <input type="text" class="task">
-                <button class="edit">Edit</button>
-                <button class="delete">
-                    <img src="./remove.svg">
+        <h3 class="header-text">Completed</h3>
+        <ul class='tasks-wrapper completed' id="completed-tasks">
+            <li class="todo-item">
+                <input class="checkbox" type="checkbox" checked>
+                <label class="task label-task">See the Doctor</label>
+                <input type="text" class="task input">
+                <button class="edit button">Edit</button>
+                <button class="delete button">
+                    <img class="remove" src="./remove.svg">
                 </button>
             </li>
         </ul>
