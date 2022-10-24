@@ -37,7 +37,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-task-wrapper {
@@ -131,6 +131,7 @@ button {
     margin: 0 10px;
 }
 
+/* 3.6 Пробелы автоматически раставлены при сохранении */
 .todo-item>.task {
     width: 226px
 }
