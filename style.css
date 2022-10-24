@@ -154,7 +154,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks .label-task {
+.completed .label-task {
     text-decoration: line-through;
     color: #888;
 }
@@ -172,3 +172,5 @@ button {
 .edit-mode .label-task {
     display: none;
 }
+
+/* 3.8 Разделение селекторов и свойств */
